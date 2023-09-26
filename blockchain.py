@@ -435,7 +435,6 @@ def flag_suspicious_data(data):
     return flagged_data
 
 # Flagging suspicious data
-
 flagged_data = flag_suspicious_data(json_data)
 print(flagged_data)
 
